@@ -1,0 +1,90 @@
+p,h1,h3{
+    color:rgb(233, 146, 146);
+    padding: 0% 1%;
+    margin: 15px;
+}
+h1, h3{
+    color: rgb(255, 255, 255);
+}
+a{
+    color: rgb(214, 82, 82);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+body{
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    background-image: url(../IMG/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 16px;
+    margin: 16px 0px;
+}
+main,header,footer{
+    margin: 0% 5% 0% 5%;
+    background-color: rgba(0, 0, 0, 0.425);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+footer{
+    padding-bottom: 16px;
+}
+img{
+    border-radius: 500px;
+}
+#mugango{
+    padding-top: 16px;
+    margin-top: 16px;
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+#numero{
+    padding-bottom: 16px;
+}
+#endereco{
+    padding-top: 16px;
+}
+#facul{
+    padding-bottom: 16px;
+}
+#social{
+    padding-top: 16px;
+}
+@media screen and (max-width: 425px) {
+    body{
+        font-size: 13px;
+    }
+    img{
+        height: 30%;
+        width: 30%;
+    }
+    #mugango{
+        height: 132px; 
+        width: 136px; 
+        border-radius: 335px 335px 320px 320px;
+    }
+}
+@media screen and (min-width: 2560px) {
+    body{
+        font-size: 25px;
+    }
+    img{
+        height: 9%;
+        width: 9%; 
+    } 
+    #mugango{
+        max-width: 350px; 
+        max-height: 350px;
+        border-radius: 350px;
+    } 
+    #linkedin{
+        width: 50px; 
+        height: 50px;
+        border-radius: 50px;
+    }
+}
